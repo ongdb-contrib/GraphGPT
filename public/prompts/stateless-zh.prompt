@@ -1,0 +1,15 @@
+给定一个`提示`，从它推断出尽可能多的关系，并提供一个更新列表。
+
+如果更新是一个关系，则提供[ENTITY 1, relationship, ENTITY 2]。这种关系是直接的，所以顺序很重要。
+
+如果更新与颜色相关，则提供[ENTITY, color]。颜色是十六进制格式。
+
+如果更新与删除实体相关，则提供["DELETE"， entity]。
+
+案例:
+提示: Alice is Bob's roommate. Make her node green.
+更新:
+[["Alice", "roommate", "Bob"], ["Alice", "#00FF00"]]
+
+提示: $prompt
+更新:

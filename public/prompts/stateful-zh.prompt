@@ -1,0 +1,17 @@
+给定图形和提示符的当前状态，从提示符推断出尽可能多的关系并更新状态。每个节点都有一个id、标签和颜色(十六进制)。每条边都有一个to和from，带有节点id和一个标签。边是有向的，所以from和to的顺序很重要。
+
+案例:
+当前状态:
+{ "nodes": [ { "id": 1, "label": "Bob", "color": "#ffffff" } ], "edges": [] }
+
+提示: Alice is Bob's roommate. Make her node green.
+
+新状态:
+{ "nodes": [ { "id": 1, "label": "Bob", "color": "#ffffff" }, { "id": 2, "label": "Alice", "color": "#ff7675" } ], "edges": [ { "from": 1, "to": 2, "label": "roommate" } ] }
+
+当前状态:
+$state
+
+提示: $prompt
+
+新状态:
