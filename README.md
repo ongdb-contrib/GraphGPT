@@ -1,9 +1,13 @@
 # GraphGPT
+<div id="top" align="center">
+
+   | [English](README.md) | [中文](docs/README-zh-Hans.md) |
+
+</div>
+
 ### Natural Language → Knowledge Graph
 
 ![demo](demo.gif)
-
-*Note: this is a toy project I built out over a weekend. If you want to use knowledge graphs in your project, check out [GPT Index](https://github.com/jerryjliu/gpt_index).*
 
 GraphGPT converts unstructured natural language into a knowledge graph. Pass in the synopsis of your favorite movie, a passage from a confusing Wikipedia page, or transcript from a video to generate a graph visualization of entities and their relationships. 
 
@@ -18,5 +22,4 @@ Prompts are located in the `public/prompts` folder. Read [this](https://twitter.
 ## Setup
 
 1. Run `npm install` to download required dependencies (currently just [react-graph-vis](https://github.com/crubier/react-graph-vis)).
-2. Make sure you have an [OpenAI API key](https://platform.openai.com/account/api-keys). You will enter this into the web app when running queries.
-3. Run `npm run start`. GraphGPT should open up in a new browser tab.
+2. Run `npm run start`. GraphGPT should open up in a new browser tab.
